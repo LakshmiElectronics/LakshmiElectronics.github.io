@@ -152,7 +152,6 @@ body {
   position: absolute;
   opacity: 0.8;
   z-index: 1;
-  width: 100vw;
   height: 610px;
 }
 .banner-text {
@@ -305,7 +304,7 @@ p {
 }
 .help-area {
   text-align: center;
-  padding: 3em 0em;
+  padding: 2em 0em;
 }
 .help-area h1 {
   color: white;
@@ -350,4 +349,19 @@ p {
 }
 .social li {
   margin-right: 5px;
+}
+
+
+.navbar {
+  background-color: black !important;
+}
+
+@media  (max-width:420px) {
+  iframe {
+    width: 287px !important;
+  }
+
+  .banner-text {
+    top: 56px !important;
+  }
 }
